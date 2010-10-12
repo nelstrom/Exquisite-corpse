@@ -3,19 +3,28 @@ var canvas, headChanger, torsoChanger, legChanger;
 
 Ext.setup({
   onReady: function() {
-    headChanger = new Ext.Panel({
+    headChanger = new Ext.Carousel({
       title: 'Heads',
-      html: "heads go here"
+      items: [
+        {html: "pigs head"},
+        {html: "cows head"}
+      ]
     });
 
-    torsoChanger = new Ext.Panel({
+    torsoChanger = new Ext.Carousel({
       title: 'Torsos',
-      html: "torsos go here"
+      items: [
+        {html: "pigs torso"},
+        {html: "cows torso"}
+      ]
     });
 
-    legChanger = new Ext.Panel({
+    legChanger = new Ext.Carousel({
       title: 'Legs',
-      html: "legs go here"
+      items: [
+        {html: "pigs legs"},
+        {html: "cows legs"}
+      ]
     });
 
     canvas = new Ext.Panel({

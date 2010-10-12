@@ -1,15 +1,9 @@
 .x-panel {
   background-color: #fff;
 }
-.panelOne {
-  background-color: #fcc;
+.x-carousel-indicator {
+  display:none;
 }
-.panelTwo {
-  background-color: #cfc;
-}
-.panelThree {
-  background-color: #ccf;
-}
-.panelFour {
-  background-color: #222;
+.x-carousel-body {
+  border-bottom: 1px solid #999;
 }
