@@ -1,5 +1,4 @@
-var canvas, headChanger, torsoChanger, legChanger;
-
+var canvas, headChanger, torsoChanger, legChanger, attributionPanel;
 
 Ext.setup({
   onReady: function() {
@@ -35,6 +34,11 @@ Ext.setup({
       {cls: "legs-5 legs"}
       ]
     });
+    
+    attributionPanel = new Ext.Panel({
+      dock: 'bottom',
+      html: '<div id="credits"><p class="builder">Built by <a href="http://drewneil.com">Drew Neil</a></p><p class="illustrator">Illustrations by <a href="http://www.veryworrying.com/">Laurie Pink</a></p></div>'
+    });
 
     canvas = new Ext.Panel({
       fullscreen: true,
@@ -44,7 +48,8 @@ Ext.setup({
         align: 'stretch'
       },
       defaults: {flex: 1},
-      items: [headChanger, torsoChanger, legChanger]
+      items: [headChanger, torsoChanger, legChanger],
+      dockedItems: [attributionPanel]
     });
 
   }

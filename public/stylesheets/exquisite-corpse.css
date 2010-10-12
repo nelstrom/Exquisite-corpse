@@ -28,3 +28,7 @@
 .legs-4{ background-image: url('/images/4-exquisite-legs.png'); }
 .legs-5{ background-image: url('/images/5-exquisite-legs.png'); }
 
+#credits     { font-size: 50%; }
+#credits p   { padding: 1em; width: 40%; }
+.builder     { float: left;  text-align: left; }
+.illustrator { float: right; text-align: right; }
