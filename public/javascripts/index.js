@@ -1,7 +1,8 @@
-var canvas, headChanger, torsoChanger, legChanger, attributionPanel;
-
 Ext.setup({
   onReady: function() {
+
+    var canvas, headChanger, torsoChanger, legChanger, attributionPanel;
+
     headChanger = new Ext.Carousel({
       title: 'Heads',
       items: [
