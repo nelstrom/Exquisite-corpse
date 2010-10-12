@@ -6,24 +6,33 @@ Ext.setup({
     headChanger = new Ext.Carousel({
       title: 'Heads',
       items: [
-        {html: "pigs head"},
-        {html: "cows head"}
+        {html: "<img src='/images/1-exquisite-heads.png'/>"},
+        {html: "<img src='/images/2-exquisite-heads.png'/>"},
+        {html: "<img src='/images/3-exquisite-heads.png'/>"},
+        {html: "<img src='/images/4-exquisite-heads.png'/>"},
+        {html: "<img src='/images/5-exquisite-heads.png'/>"}
       ]
     });
 
     torsoChanger = new Ext.Carousel({
       title: 'Torsos',
       items: [
-        {html: "pigs torso"},
-        {html: "cows torso"}
+      {html: "<img src='/images/1-exquisite-torsos.png'/>"},
+      {html: "<img src='/images/2-exquisite-torsos.png'/>"},
+      {html: "<img src='/images/3-exquisite-torsos.png'/>"},
+      {html: "<img src='/images/4-exquisite-torsos.png'/>"},
+      {html: "<img src='/images/5-exquisite-torsos.png'/>"}
       ]
     });
 
     legChanger = new Ext.Carousel({
       title: 'Legs',
       items: [
-        {html: "pigs legs"},
-        {html: "cows legs"}
+      {html: "<img src='/images/1-exquisite-legs.png'/>"},
+      {html: "<img src='/images/2-exquisite-legs.png'/>"},
+      {html: "<img src='/images/3-exquisite-legs.png'/>"},
+      {html: "<img src='/images/4-exquisite-legs.png'/>"},
+      {html: "<img src='/images/5-exquisite-legs.png'/>"}
       ]
     });
 
