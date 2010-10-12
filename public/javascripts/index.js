@@ -6,33 +6,33 @@ Ext.setup({
     headChanger = new Ext.Carousel({
       title: 'Heads',
       items: [
-        {html: "<img src='/images/1-exquisite-heads.png'/>"},
-        {html: "<img src='/images/2-exquisite-heads.png'/>"},
-        {html: "<img src='/images/3-exquisite-heads.png'/>"},
-        {html: "<img src='/images/4-exquisite-heads.png'/>"},
-        {html: "<img src='/images/5-exquisite-heads.png'/>"}
+        {cls: "head-1 head"},
+        {cls: "head-2 head"},
+        {cls: "head-3 head"},
+        {cls: "head-4 head"},
+        {cls: "head-5 head"}
       ]
     });
 
     torsoChanger = new Ext.Carousel({
       title: 'Torsos',
       items: [
-      {html: "<img src='/images/1-exquisite-torsos.png'/>"},
-      {html: "<img src='/images/2-exquisite-torsos.png'/>"},
-      {html: "<img src='/images/3-exquisite-torsos.png'/>"},
-      {html: "<img src='/images/4-exquisite-torsos.png'/>"},
-      {html: "<img src='/images/5-exquisite-torsos.png'/>"}
+      {cls: "torso-1 torso"},
+      {cls: "torso-2 torso"},
+      {cls: "torso-3 torso"},
+      {cls: "torso-4 torso"},
+      {cls: "torso-5 torso"}
       ]
     });
 
     legChanger = new Ext.Carousel({
       title: 'Legs',
       items: [
-      {html: "<img src='/images/1-exquisite-legs.png'/>"},
-      {html: "<img src='/images/2-exquisite-legs.png'/>"},
-      {html: "<img src='/images/3-exquisite-legs.png'/>"},
-      {html: "<img src='/images/4-exquisite-legs.png'/>"},
-      {html: "<img src='/images/5-exquisite-legs.png'/>"}
+      {cls: "legs-1 legs"},
+      {cls: "legs-2 legs"},
+      {cls: "legs-3 legs"},
+      {cls: "legs-4 legs"},
+      {cls: "legs-5 legs"}
       ]
     });
 
